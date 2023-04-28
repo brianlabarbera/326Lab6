@@ -21,12 +21,24 @@
     <ClCompile Include="ArrQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArrCirQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PoiCirQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Customers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrCirQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PoiCirQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -129,10 +129,14 @@
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="ArrQueue.cpp" />
+    <ClCompile Include="ArrCirQueue.cpp" />
+    <ClCompile Include="PoiCirQueue.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrQueue.h" />
     <ClInclude Include="Customers.h" />
+    <ClInclude Include="ArrCirQueue.h" />
+    <ClInclude Include="PoiCirQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -47,14 +47,15 @@ void ArrQueue::Dequeue(Customer person, bool& success) {
 
 		person = data[0];
 
-		if (tail > 0) {
+		if (tail >= 0) {
 
 			for (int i = 0; i <= tail; i++) {
 				data[i] = data[i + 1];
 
-				std::cout << person.CustomerName;
 
 			}
+
+			std::cout << person.CustomerName;
 
 		}
 
