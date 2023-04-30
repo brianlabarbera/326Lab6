@@ -37,6 +37,8 @@ void problemChoice() {
 
 		std::cout << "Enter 3 to use the FIFO Queue with a circular pointer-based queue." << std::endl;
 
+		std::cout << "or" << std::endl;
+
 		std::cout << "Enter 4 to check if a string is a palindrome" << std::endl;
 
 		std::cin >> choice;
@@ -261,6 +263,8 @@ int problem4() {
 
 	std::string str;
 	std::cout << "Enter a string: ";
+	std::cin.clear();
+	std::cin.ignore();
 	std::getline(std::cin, str);
 
 	if (isPalindrome(str)) {
