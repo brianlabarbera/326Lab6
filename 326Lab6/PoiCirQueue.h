@@ -25,6 +25,7 @@ private:
 
 	Node* head;
 	Node* tail;
+	int size;
 
 };
 

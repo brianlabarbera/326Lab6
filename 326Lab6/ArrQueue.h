@@ -2,7 +2,7 @@
 #define ARRQUEUE_H
 #include "Customers.h"
 
-const int max = 10;
+const int max = 15;
 
 class ArrQueue {
 

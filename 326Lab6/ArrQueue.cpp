@@ -55,7 +55,7 @@ void ArrQueue::Dequeue(Customer person, bool& success) {
 
 			}
 
-			std::cout << person.CustomerName;
+			std::cout << person.CustomerName << std::endl;
 
 		}
 

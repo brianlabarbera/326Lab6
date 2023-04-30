@@ -55,7 +55,7 @@ void ArrCirQueue::Dequeue(Customer person, bool& success) {
 
 		size--;
 
-		std::cout << person.CustomerName;
+		std::cout << person.CustomerName << std::endl;
 
 	}
 
